@@ -38,7 +38,6 @@ public class AddEmployeePage extends BasePage {
 		txtLastName.sendKeys("reddy");
 		btnSave.click();
 		String expectedEmpID = txtEmployeeId.getAttribute("value");
-		System.out.println(expectedEmpID);
 		return expectedEmpID;
 		
 	}
