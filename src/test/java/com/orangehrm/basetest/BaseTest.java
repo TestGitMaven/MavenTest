@@ -1,6 +1,6 @@
 package com.orangehrm.basetest;
 
-import java.lang.reflect.Method;
+
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;

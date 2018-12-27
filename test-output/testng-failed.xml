@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Orange HRM Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.orangehrm.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Organge HRM Test Cases(failed)">
     <classes>
       <class name="com.orangehrm.tests.AddEmployeeTest">
         <methods>
@@ -12,5 +15,5 @@
         </methods>
       </class> <!-- com.orangehrm.tests.AddEmployeeTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Organge HRM Test Cases(failed) -->
+</suite> <!-- Failed suite [Orange HRM Application Test Automation Test Suite] -->
